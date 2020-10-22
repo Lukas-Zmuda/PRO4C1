@@ -33,7 +33,10 @@ public class DatoveTypy {
 		
 		//desatinne DT
 		float priemer = 12.36f;
-		double priemer2 = 12.458;
+		double priemer2 = 12.99;
+		
+		int pr = (int)priemer2;
+		System.out.println("pr = " + pr);
 		
 		//znaky
 		char zavinac = '@';
