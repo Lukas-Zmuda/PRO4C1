@@ -38,6 +38,20 @@ public class Cykly {
 			}
 				
 		}
+		System.out.println("-------------");
+		int k = 1; 
+		while(k < 11) {
+			System.out.print(k + ", ");
+			k++;
+		}
+		
+		System.out.println();
+		k = -10;
+		do {
+			System.out.print(k + ", ");
+			k--;
+		}while(k > 0);
+		
 	}
 
 }
