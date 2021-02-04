@@ -36,6 +36,7 @@ public class Pole {
 			System.out.println((i + 1) + ". " + mena[i] + ": " + vyska[i] + " cm");
 		}
 		
+		//78, 58, 89
 		
 		
 
