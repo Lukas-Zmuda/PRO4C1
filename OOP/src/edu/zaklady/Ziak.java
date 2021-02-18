@@ -1,10 +1,12 @@
+package edu.zaklady;
+
 class Ziak {
 
 	//instancne premenne - fields
 	String meno;
 	String priezvisko;
 	String trieda;
-	
+		
 	//konstruktor
 	Ziak(){
 		meno = "nezname";
