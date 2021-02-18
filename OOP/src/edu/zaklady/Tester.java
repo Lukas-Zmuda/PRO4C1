@@ -1,4 +1,7 @@
 package edu.zaklady;
+
+import edu.modifikatory.Ucet;
+
 public class Tester {
 
 	public static void main(String[] args) {
@@ -27,6 +30,9 @@ public class Tester {
 		
 		Ziak z4 = new Ziak("Jan", "Hus");
 		z4.info();
+		
+		Ucet u = new Ucet();
+		u.info();
 		
 	}
 
