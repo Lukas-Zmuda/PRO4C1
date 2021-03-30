@@ -28,11 +28,14 @@ public class Tester {
 			}else {
 				System.out.println("Neznamy typ:");
 			}
-			u.info();
-			
+			u.info();			
 		}
 		
 		//utvary[2].info();
+		
+		//dana trieda je oznacena ako abstraktna
+		//Utvar uu = new Utvar(1, 2);
+		
 		
 	}
 

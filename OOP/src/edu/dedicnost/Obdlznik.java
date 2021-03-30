@@ -11,15 +11,16 @@ public class Obdlznik extends Utvar{
 	}
 	
 	public double obvod() {
-		return 0;
-	}
-	
-	public double obsah() {
-		return 0;
+		return 2 * (this.dlzka + this.sirka);
 	}
 	
 	public void info() {
 		System.out.println("Obdlznik na suradniciach[" + x + "," + y + "]d=" + dlzka + ", s = " + sirka);
+	}
+
+	@Override
+	public double obsah() {
+		return this.dlzka * this.sirka;
 	}
 	
 	

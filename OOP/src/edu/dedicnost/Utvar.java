@@ -1,6 +1,6 @@
 package edu.dedicnost;
 
-public class Utvar {
+public abstract class Utvar {
 	
 	double x,y;
 	
@@ -11,6 +11,10 @@ public class Utvar {
 	}
 
 
+	public abstract double obsah();
+	
+	public abstract double obvod();
+	
 
 	public void info() {
 		System.out.println("Utvar na suradniciach[" + x + "," + y + "]");

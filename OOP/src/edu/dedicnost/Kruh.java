@@ -9,16 +9,21 @@ public class Kruh extends Utvar {
 		this.polomer = polomer;
 	}
 	
-	public double obvod() {
-		return 2 * Math.PI * this.polomer;
-	}
-	
-	public double obsah() {
-		return 0;
-	}
-	
+		
 	public void info() {
 		System.out.println("Kruh na suradniciach[" + x + "," + y + "]r=" + polomer);
+	}
+
+
+	@Override
+	public double obsah() {
+		return Math.PI * this.polomer * this.polomer;
+	}
+
+
+	@Override
+	public double obvod() {
+		return 2 * Math.PI * this.polomer;
 	}
 
 }
